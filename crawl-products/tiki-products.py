@@ -52,14 +52,14 @@ def thread_flow():
                 print("\n" + "\t".join([f"{x}" for x in [f"category={category['id']}", f"page={page}", f"{len(page_products)} products"]]))
                 for product in page_products:
                     if product["id"] not in products:
-                        products[product["id"]] = product
+                        products[product["id"]] = True
                         print(f"\nCollected {len(products)} products: {product}")
-                        with open(f"{os.getcwd()}/output/page{len(products)//settings['output_page_limit']+1}.txt", "a", encoding="utf-8-sig") as f:
-                            f.write(f"\n{product}\n")
+                        with open(f"{os.getcwd()}/output/{len(products)//1000+1}.txt", "a", encoding="utf-8-sig") as f:
+                            f.write(json.dumps(product) + "\n")
                 if len(page_products) != settings["page_limit"]:
                     break
-            except:
-                break
+            except Exception as e:
+                print(e)
 
 
 global_time = time.time()
