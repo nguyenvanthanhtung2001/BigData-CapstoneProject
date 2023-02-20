@@ -8,7 +8,7 @@ The dataset can be found at [Tiki E-commerce Platform](https://tiki.vn/).
 
 ## Performance
 
-Check the [Final](Report) for a intuitive view.
+Check the [Report](https://github.com/nguyenvanthanhtung2001/BigData-CapstoneProject/blob/main/Report.pdf) for a intuitive view.
 
 ## Proof
 Check the HBase proof at Proof Folder
