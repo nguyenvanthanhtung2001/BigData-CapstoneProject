@@ -1,6 +1,6 @@
-# BusinessAnalysis
+# BigData
 
-This [repository](https://github.com/nguyenvanthanhtung2001/BigData-CapstoneProject) contains our sourcecode for DSAI | K64 | HUST | Introduction to Business Analytics project.
+This [repository](https://github.com/nguyenvanthanhtung2001/BigData-CapstoneProject) contains our sourcecode for DSAI | K64 | HUST | Introduction to Big Data project.
 
 ## Dataset
 
